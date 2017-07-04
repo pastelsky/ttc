@@ -16,8 +16,8 @@ Best to fork off an existing site.
 3. Get / Have chrome canary
 4. Start remote chrome interface on port 9222.
    On mac, this can be done using
-   `
+   ```bash
    sudo /Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary --remote-debugging-port=9222 
-   `
+   ```
 5. In a new terminal exec `node index` to run the test
 6. Different sites can be tested by changing `website` in `index.js`
