@@ -17,7 +17,7 @@ Measure the time taken to compelete a flow from home page to the cart page on a 
    sudo /Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary --remote-debugging-port=9222 
    ```
 5. In a new terminal exec `node index` to run the test
-6. Different sites can be tested by changing `website` in `index.js`
+6. Different sites can be tested by changing the `website` variable in `index.js`
 
 ## Testing different sites
 Supported sites can be found in the `sites` directory. 
