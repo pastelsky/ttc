@@ -56,11 +56,11 @@ async function ttc() {
   });
 
   table.push([
-   `${Math.round(fcpResultHome.result.value)}ms`,
-   `${Math.round(fcpResultSearch.result.value)}ms`,
-   `${Math.round(fcpResultProduct.result.value)}ms`,
-   `${Math.round(fcpResultCart.result.value)}ms`,
-   `${Math.round(totalFCP)}ms`,
+   `${Math.round(fcpResultHome.result.value)} ms`,
+   `${Math.round(fcpResultSearch.result.value)} ms`,
+   `${Math.round(fcpResultProduct.result.value)} ms`,
+   `${Math.round(fcpResultCart.result.value)} ms`,
+   `${Math.round(totalFCP)} ms`,
   ]);
 
   console.log(table.toString());
