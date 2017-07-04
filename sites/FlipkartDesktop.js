@@ -21,12 +21,10 @@ class FlipkartDesktop {
   })
 
   await Page.loadEventFired();
-  console.log('going to search')
  }
 
  async goToProduct() {
   const { Page, Runtime } = this.client
-  console.log('going to prod')
   setTimeout(async () => {
    await Runtime.evaluate({
     expression: `

@@ -22,9 +22,19 @@ async function ttc() {
   await Network.clearBrowserCache()
   await Network.clearBrowserCookies()
 
-  const website = new UrbanLadderDesktop(client)
+  await Network.emulateNetworkConditions({
+   offline: false,
+   latency: 500,
+   downloadThroughput: 80000,
+   uploadThroughput: 60000,
+  })
+
+  await Emulation.setCPUThrottlingRate({ rate: 2 })
+
+
+  //const website = new UrbanLadderDesktop(client)
   //const website = new UrbanLadderMobile(client)
-  //const website = new FlipkartDesktop(client)
+  const website = new FlipkartDesktop(client)
   const isMobile = false
 
   if (isMobile) {
