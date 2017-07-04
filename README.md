@@ -1,7 +1,6 @@
 
 
-# [POC][WIP] Time to Cart
-Measure the time taken to compelete a flow from home page to the cart page. 
+# [WIP] Time to Cart
 Measure the time taken to compelete a flow from home page to the cart page on a 3G Network. 
 
 <img src="https://s14.postimg.org/wgfezao81/Screen_Shot_2017-07-04_at_11.54.19_AM.png"/>
