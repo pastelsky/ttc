@@ -1,5 +1,9 @@
+
+
 # [POC][WIP] Time to Cart
 Measure the time taken to compelete a flow from home page to the cart page. 
+
+<img src="https://s14.postimg.org/wgfezao81/Screen_Shot_2017-07-04_at_11.54.19_AM.png"/>
 
 # Sites
 Supported sites can be found in the `sites` directory. 
