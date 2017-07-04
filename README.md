@@ -1,5 +1,5 @@
 # [POC][WIP] Time to Cart
-Measure the time taken to compelete a flow from home page to the card page. 
+Measure the time taken to compelete a flow from home page to the cart page. 
 
 # Sites
 Supported sites can be found in the `sites` directory. 
